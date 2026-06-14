@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotorTO — Каталог</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">MotorTO</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="page.html">Каталог</a></li>
+        </ul>
+      </nav>
+      <div class="header-contacts">
+        <a href="tel:89324254508">8 (932) 425-45-08</a>
+        <span>ул. Сайханова</span>
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+          <span>☀️</span><span>🌙</span>
+        </button>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Главная</a>
+    <a href="about.html">О нас</a>
+    <a href="page.html">Каталог</a>
+    <a href="tel:89324254508">📞 8 (932) 425-45-08</a>
+    <span>📍 ул. Сайханова</span>
+  </div>
+
+  <main>
+    <section class="section" style="padding-top:120px;">
+      <div class="container">
+        <h1 class="section-title">Каталог автозапчастей</h1>
+        <div class="search-bar">
+          <input type="text" placeholder="Поиск по названию или артикулу...">
+        </div>
+        <div class="tabs">
+          <button class="tab-btn active">Все</button>
+          <button class="tab-btn">Двигатель</button>
+          <button class="tab-btn">Подвеска</button>
+          <button class="tab-btn">Тормоза</button>
+          <button class="tab-btn">Электрика</button>
+        </div>
+
+        <div class="catalog-grid">
+          <!-- Карточка 1: Тормозные колодки -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://avatars.mds.yandex.net/get-vertis-journal/4220003/s-l1600.jpg_1679563592468/orig" alt="Тормозные колодки">
+            <div class="catalog-info">
+              <span class="article">Арт. 1001</span>
+              <h3>Тормозные колодки</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">2 490 ₽</span><span class="old-price">3 200 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 2: Масляный фильтр -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://oilnn.ru/wa-data/public/shop/products/82/04/20482/images/2192/2192.970.jpg" alt="Масляный фильтр">
+            <div class="catalog-info">
+              <span class="article">Арт. 1002</span>
+              <h3>Масляный фильтр</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">890 ₽</span><span class="old-price">1 200 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 3: Свечи зажигания -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://f.nodacdn.net/628355" alt="Свечи зажигания">
+            <div class="catalog-info">
+              <span class="article">Арт. 1003</span>
+              <h3>Свечи зажигания</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">1 650 ₽</span><span class="old-price">2 100 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 4: Амортизатор -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://www.rollingmoto.ru/upload/iblock/9e7/mou7492k1ehf166n7ipv0c69xqofe8ks.jpg" alt="Амортизатор">
+            <div class="catalog-info">
+              <span class="article">Арт. 1004</span>
+              <h3>Амортизатор</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">4 200 ₽</span><span class="old-price">5 500 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 5: Ремень ГРМ -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://automd.ru/sites/default/files/head-images/03-big_grm.jpg" alt="Ремень ГРМ">
+            <div class="catalog-info">
+              <span class="article">Арт. 1005</span>
+              <h3>Ремень ГРМ</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">1 990 ₽</span><span class="old-price">2 600 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 6: Радиатор -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://luzar.ru/upload/resize_cache/iblock/958/1024_683_13bd367a92aff465acafe919f4b80bb4d/958b0d01df751dbb851157d5c222af3d.jpg" alt="Радиатор">
+            <div class="catalog-info">
+              <span class="article">Арт. 1006</span>
+              <h3>Радиатор</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">5 600 ₽</span><span class="old-price">7 200 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 7: Воздушный фильтр -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://aaa38.su/system/product_photo/738730/vozdushnij-filtr_original.jpg?1599463923" alt="Воздушный фильтр">
+            <div class="catalog-info">
+              <span class="article">Арт. 1007</span>
+              <h3>Воздушный фильтр</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">750 ₽</span><span class="old-price">950 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 8: Тормозной диск -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://www.galferrussia.ru/images/galfer/disco-evo-r-series_900.png" alt="Тормозной диск">
+            <div class="catalog-info">
+              <span class="article">Арт. 1008</span>
+              <h3>Тормозной диск</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">3 800 ₽</span><span class="old-price">4 900 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 9: Катушка зажигания -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://tmpekar.ru/upload/iblock/83f/ibe97wj6lelnubvyf53e5jsgesaqlt8m/%D0%91116_1.jpg" alt="Катушка зажигания">
+            <div class="catalog-info">
+              <span class="article">Арт. 1009</span>
+              <h3>Катушка зажигания</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">2 250 ₽</span><span class="old-price">2 900 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 10: Пружина подвески -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://kibmotors.ru/wp-content/uploads/2024/06/%D0%9F%D1%80%D1%83%D0%B6%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D0%B4%D0%B2%D0%B5%D1%81%D0%BA%D0%B8-%D0%B7%D0%B0%D0%BC%D0%B5%D0%BD%D0%B0-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg" alt="Пружина подвески">
+            <div class="catalog-info">
+              <span class="article">Арт. 1010</span>
+              <h3>Пружина подвески</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">2 980 ₽</span><span class="old-price">3 700 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 11: Натяжитель цепи -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://velomarket31.ru/image/cache/catalog/i/ed/hc/68b2d856c1035559f15c49305157e40a-1000x1000.jpg" alt="Натяжитель цепи">
+            <div class="catalog-info">
+              <span class="article">Арт. 1011</span>
+              <h3>Натяжитель цепи</h3>
+              <div class="rating">★★★★☆</div>
+              <div class="price"><span class="new-price">1 750 ₽</span><span class="old-price">2 200 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+          <!-- Карточка 12: Датчик кислорода -->
+          <div class="catalog-card fade-in-up">
+            <img src="https://amastercar.ru/articles/img/datchik_k.jpg" alt="Датчик кислорода">
+            <div class="catalog-info">
+              <span class="article">Арт. 1012</span>
+              <h3>Датчик кислорода</h3>
+              <div class="rating">★★★★★</div>
+              <div class="price"><span class="new-price">3 150 ₽</span><span class="old-price">4 000 ₽</span></div>
+              <button class="btn add-to-cart">В корзину</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <button class="page-btn active">1</button>
+          <button class="page-btn">2</button>
+          <button class="page-btn">3</button>
+          <button class="page-btn">Далее</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about"><h3 class="logo">MotorTO</h3><p>Автозапчасти с гарантией качества.</p></div>
+        <div class="footer-contacts"><h4>Контакты</h4><p><a href="tel:89324254508">8 (932) 425-45-08</a></p><p>ул. Сайханова</p></div>
+        <div class="footer-social"><h4>Мы в соцсетях</h4><div class="social-icons"><a href="#">VK</a><a href="#">TG</a><a href="#">WA</a></div></div>
+      </div>
+      <div class="footer-bottom">© 2026 MotorTO</div>
+    </div>
+  </footer>
+
+  <script>
+    (function() {
+      const themeToggle = document.getElementById('themeToggle');
+      const body = document.body;
+      if (localStorage.getItem('theme') === 'light') body.classList.add('light-mode');
+      themeToggle?.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+        localStorage.setItem('theme', body.classList.contains('light-mode') ? 'light' : 'dark');
+      });
+
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      hamburger?.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        mobileMenu.classList.toggle('open');
+      });
+      mobileMenu?.querySelectorAll('a').forEach(l => l.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        mobileMenu.classList.remove('open');
+      }));
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => { if(entry.isIntersecting) { entry.target.classList.add('appear'); observer.unobserve(entry.target); } });
+      }, { threshold: 0.1 });
+      document.querySelectorAll('.fade-in-up').forEach(el => observer.observe(el));
+
+      // Табы
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+
+      // Кнопки корзины
+      document.querySelectorAll('.add-to-cart').forEach(btn => {
+        btn.addEventListener('click', function() {
+          const orig = this.textContent;
+          this.textContent = '✓ Добавлено';
+          this.style.background = '#00b4d8';
+          setTimeout(() => { this.textContent = orig; this.style.background = ''; }, 1500);
+        });
+      });
+
+      // Пагинация
+      document.querySelectorAll('.page-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.page-btn').forEach(b => b.classList.remove('active'));
+          this.classList.add('active');
+        });
+      });
+    })();
+  </script>
+</body>
+</html>
