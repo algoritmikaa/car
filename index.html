@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>MotorTO — Главная</title>
+
+ <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+ <header class="header">
+
+   <div class="container">
+
+     <a href="index.html" class="logo">MotorTO</a>
+
+     <nav class="nav">
+
+       <ul class="nav-list">
+
+         <li><a href="index.html">Главная</a></li>
+
+         <li><a href="about.html">О нас</a></li>
+
+         <li><a href="page.html">Каталог</a></li>
+
+       </ul>
+
+     </nav>
+
+     <div class="header-contacts">
+
+       <a href="tel:89324254508">8 (932) 425-45-08</a>
+
+       <span>ул. Сайханова</span>
+
+       <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+
+         <span>☀️</span><span>🌙</span>
+
+       </button>
+
+     </div>
+
+     <button class="hamburger" id="hamburger" aria-label="Меню">
+
+       <span></span><span></span><span></span>
+
+     </button>
+
+   </div>
+
+ </header>
+
+ <div class="mobile-menu" id="mobileMenu">
+
+   <a href="index.html">Главная</a>
+
+   <a href="about.html">О нас</a>
+
+   <a href="page.html">Каталог</a>
+
+   <a href="tel:89324254508">📞 8 (932) 425-45-08</a>
+
+   <span>📍 ул. Сайханова</span>
+
+ </div>
+
+
+
+ <main>
+
+   <!-- Герой -->
+
+   <section class="hero">
+
+     <div class="hero-content">
+
+       <h1>Детали для вашего авто — как новые</h1>
+
+       <p>Оригинальные запчасти с гарантией качества</p>
+
+       <a href="page.html" class="btn">В каталог</a>
+
+       <a href="tel:89324254508" class="btn btn-outline" style="margin-left:15px;">Связаться</a>
+
+     </div>
+
+     <div class="scroll-indicator">⌄</div>
+
+   </section>
+
+
+
+   <!-- Преимущества -->
+
+   <section class="section">
+
+     <div class="container">
+
+       <h2 class="section-title">Почему выбирают нас</h2>
+
+       <div class="advantages-grid">
+
+         <div class="adv-card fade-in-up">
+
+           <div class="adv-icon">🛡️</div>
+
+           <h3>Надёжность</h3>
+
+           <p>Только проверенные поставщики</p>
+
+         </div>
+
+         <div class="adv-card fade-in-up">
+
+           <div class="adv-icon">⚡</div>
+
+           <h3>Быстрая доставка</h3>
+
+           <p>От 1 дня по городу</p>
+
+         </div>
+
+         <div class="adv-card fade-in-up">
+
+           <div class="adv-icon">🚚</div>
+
+           <h3>Оригиналы</h3>
+
+           <p>Сертифицированные запчасти</p>
+
+         </div>
+
+         <div class="adv-card fade-in-up">
+
+           <div class="adv-icon">⭐</div>
+
+           <h3>Гарантия 12 мес.</h3>
+
+           <p>Бесплатная замена</p>
+
+         </div>
+
+       </div>
+
+     </div>
+
+   </section>
+
+
+
+   <!-- Популярные товары -->
+
+   <section class="section">
+
+     <div class="container">
+
+       <h2 class="section-title">Популярные товары</h2>
+
+       <div class="slider-wrapper">
+
+         <button class="slider-btn prev" id="sliderPrev">‹</button>
+
+         <div class="slider-container" id="productSlider">
+
+           <!-- Тормозные колодки -->
+
+           <div class="product-card">
+
+             <img src="https://avatars.mds.yandex.net/get-vertis-journal/4220003/s-l1600.jpg_1679563592468/orig" alt="Тормозные колодки">
+
+             <div class="card-info">
+
+               <h3>Тормозные колодки</h3>
+
+               <div class="price"><span class="new-price">2 490 ₽</span><span class="old-price">3 200 ₽</span></div>
+
+               <button class="btn add-to-cart">Заказать</button>
+
+             </div>
+
+           </div>
+
+           <!-- Масляный фильтр -->
+
+           <div class="product-card">
+
+             <img src="https://oilnn.ru/wa-data/public/shop/products/82/04/20482/images/2192/2192.970.jpg" alt="Масляный фильтр">
+
+             <div class="card-info">
+
+               <h3>Масляный фильтр</h3>
+
+               <div class="price"><span class="new-price">890 ₽</span><span class="old-price">1 200 ₽</span></div>
+
+               <button class="btn add-to-cart">Заказать</button>
+
+             </div>
+
+           </div>
+
+           <!-- Свечи зажигания -->
+
+           <div class="product-card">
+
+             <img src="https://f.nodacdn.net/628355" alt="Свечи зажигания">
+
+             <div class="card-info">
+
+               <h3>Свечи зажигания</h3>
+
+               <div class="price"><span class="new-price">1 650 ₽</span><span class="old-price">2 100 ₽</span></div>
+
+               <button class="btn add-to-cart">Заказать</button>
+
+             </div>
+
+           </div>
+
+           <!-- Амортизатор -->
+
+           <div class="product-card">
+
+             <img src="https://www.rollingmoto.ru/upload/iblock/9e7/mou7492k1ehf166n7ipv0c69xqofe8ks.jpg" alt="Амортизатор">
+
+             <div class="card-info">
+
+               <h3>Амортизатор</h3>
+
+               <div class="price"><span class="new-price">4 200 ₽</span><span class="old-price">5 500 ₽</span></div>
+
+               <button class="btn add-to-cart">Заказать</button>
+
+             </div>
+
+           </div>
+
+         </div>
+
+         <button class="slider-btn next" id="sliderNext">›</button>
+
+       </div>
+
+     </div>
+
+   </section>
+
+
+
+   <!-- Отзывы -->
+
+   <section class="section">
+
+     <div class="container">
+
+       <h2 class="section-title">Отзывы клиентов</h2>
+
+       <div class="reviews-carousel" id="reviewsCarousel">
+
+         <div class="review-slide active">
+
+           <img src="https://i.pravatar.cc/150?img=5" alt="Аватар" class="review-avatar">
+
+           <h3>Алексей Иванов</h3>
+
+           <div class="stars">★★★★★</div>
+
+           <p>«Заказал тормозные диски — пришли за 2 дня, оригинал. Очень доволен сервисом!»</p>
+
+         </div>
+
+         <div class="review-slide">
+
+           <img src="https://i.pravatar.cc/150?img=8" alt="Аватар" class="review-avatar">
+
+           <h3>Мария Петрова</h3>
+
+           <div class="stars">★★★★★</div>
+
+           <p>«Помогли подобрать редкую деталь на японский авто. Цены приятные, вернусь ещё.»</p>
+
+         </div>
+
+         <div class="review-slide">
+
+           <img src="https://i.pravatar.cc/150?img=12" alt="Аватар" class="review-avatar">
+
+           <h3>Дмитрий Смирнов</h3>
+
+           <div class="stars">★★★★☆</div>
+
+           <p>«Гарантия 12 месяцев — это реально работает. Заменили бракованный датчик без проблем.»</p>
+
+         </div>
+
+       </div>
+
+     </div>
+
+   </section>
+
+
+
+   <!-- Контакты -->
+
+   <section class="section">
+
+     <div class="container" style="text-align:center;">
+
+       <h2 class="section-title">Свяжитесь с нами</h2>
+
+       <a href="tel:89324254508" class="btn pulse" style="font-size:1.3rem; padding:15px 40px;">📞 Позвонить</a>
+
+       <p style="margin-top:20px;">📍 ул. Сайханова | Режим работы: 9:00–20:00</p>
+
+     </div>
+
+   </section>
+
+ </main>
+
+
+
+ <footer class="footer">
+
+   <div class="container">
+
+     <div class="footer-grid">
+
+       <div class="footer-about">
+
+         <h3 class="logo">MotorTO</h3>
+
+         <p>Автозапчасти с гарантией качества. Оригиналы, быстрая доставка, профессиональная консультация.</p>
+
+       </div>
+
+       <div class="footer-contacts">
+
+         <h4>Контакты</h4>
+
+         <p><a href="tel:89324254508">8 (932) 425-45-08</a></p>
+
+         <p>ул. Сайханова</p>
+
+       </div>
+
+       <div class="footer-social">
+
+         <h4>Мы в соцсетях</h4>
+
+         <div class="social-icons">
+
+           <a href="#" aria-label="VK">VK</a>
+
+           <a href="#" aria-label="Telegram">TG</a>
+
+           <a href="#" aria-label="WhatsApp">WA</a>
+
+         </div>
+
+       </div>
+
+     </div>
+
+     <div class="footer-bottom">
+
+       © 2026 MotorTO. Все права защищены.
+
+     </div>
+
+   </div>
+
+ </footer>
+
+
+
+ <script>
+
+   (function() {
+
+     // Тема
+
+     const themeToggle = document.getElementById('themeToggle');
+
+     const body = document.body;
+
+     if (localStorage.getItem('theme') === 'light') body.classList.add('light-mode');
+
+     themeToggle?.addEventListener('click', () => {
+
+       body.classList.toggle('light-mode');
+
+       localStorage.setItem('theme', body.classList.contains('light-mode') ? 'light' : 'dark');
+
+     });
+
+
+
+     // Мобильное меню
+
+     const hamburger = document.getElementById('hamburger');
+
+     const mobileMenu = document.getElementById('mobileMenu');
+
+     hamburger?.addEventListener('click', () => {
+
+       hamburger.classList.toggle('active');
+
+       mobileMenu.classList.toggle('open');
+
+     });
+
+     mobileMenu?.querySelectorAll('a').forEach(l => l.addEventListener('click', () => {
+
+       hamburger.classList.remove('active');
+
+       mobileMenu.classList.remove('open');
+
+     }));
+
+
+
+     // Observer
+
+     const observer = new IntersectionObserver((entries) => {
+
+       entries.forEach(entry => { if(entry.isIntersecting) { entry.target.classList.add('appear'); observer.unobserve(entry.target); } });
+
+     }, { threshold: 0.15 });
+
+     document.querySelectorAll('.fade-in-up, .timeline-item').forEach(el => observer.observe(el));
+
+
+
+     // Слайдер
+
+     const slider = document.getElementById('productSlider');
+
+     if(slider) {
+
+       document.getElementById('sliderNext').addEventListener('click', () => slider.scrollBy({ left: 300, behavior: 'smooth' }));
+
+       document.getElementById('sliderPrev').addEventListener('click', () => slider.scrollBy({ left: -300, behavior: 'smooth' }));
+
+     }
+
+
+
+     // Карусель отзывов
+
+     const reviewsCarousel = document.getElementById('reviewsCarousel');
+
+     if(reviewsCarousel) {
+
+       const slides = reviewsCarousel.querySelectorAll('.review-slide');
+
+       let current = 0;
+
+       let interval = setInterval(() => { current = (current + 1) % slides.length; slides.forEach(s => s.classList.remove('active')); slides[current].classList.add('active'); }, 5000);
+
+       reviewsCarousel.addEventListener('mouseenter', () => clearInterval(interval));
+
+       reviewsCarousel.addEventListener('mouseleave', () => { interval = setInterval(() => { current = (current + 1) % slides.length; slides.forEach(s => s.classList.remove('active')); slides[current].classList.add('active'); }, 5000); });
+
+     }
+
+
+
+     // Кнопки корзины
+
+     document.querySelectorAll('.add-to-cart').forEach(btn => {
+
+       btn.addEventListener('click', function() {
+
+         const orig = this.textContent;
+
+         this.textContent = '✓ Добавлено';
+
+         this.style.background = '#00b4d8';
+
+         setTimeout(() => { this.textContent = orig; this.style.background = ''; }, 1500);
+
+       });
+
+     });
+
+   })();
+
+ </script>
+
+</body>
+
+</html>
